@@ -1,10 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+import Body from "./components/Body";
+import "./App.css";
 
 function App() {
-  return (
-    <p className='font-bold'>Namaste </p>
-  );
+  return <Body />;
 }
 
 export default App;
